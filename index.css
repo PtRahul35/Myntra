@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header {
+    height: 80px;
+    display: flex;
+    background-color: rgb(245, 239, 239);
+    border-bottom: 2px solid rgb(238, 232, 232);
+    align-items: center;
+    
+}
+.myntra-logo{
+    margin: 20px;
+    height: 30px;
+}
+.logo-container{
+    margin-left: 4%;
+}
+.nav-bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+}
+.nav-bar a{
+    color: grey;;
+    border-bottom: 2px solid white;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .1px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 32px 10px;
+    justify-content: space-evenly;
+}
+.nav-bar sup {
+    color: red;
+    font-size: 10px;
+}
+.nav-bar a:hover {
+    border-bottom: 4px solid #c41a1a;
+}
+.action-bar{
+    margin-left: 4%;
+}
+.search-box{
+    margin-left: 70px;
+    display: flex;
+    min-width: 600px;
+    align-items: center;    
+}
+.search-icon {
+    height: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+
+    background-color: rgb(235, 235, 230);
+    color: black;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+.search-input{
+    border-radius: 5px;
+    background-color: rgb(236, 234, 234);
+    flex-grow: 1;
+    height: 40px;
+    color: rgb(229, 233, 236);
+    border: 0;
+}
+.action-bar{
+    margin-left: 100px;
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*main*/
+
+.banner {
+    margin: 40px 0;
+}
+
+.banner-image {
+    width: 100%;
+}
+.product-category{
+    text-transform: uppercase;
+    color: rgb(159, 160, 160);
+    letter-spacing: .15em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 40px 0;
+}
+
+.offer-image {
+    width: 250px;
+}
+
+.footer{
+    padding: 30px 0px 40px 0px;
+    background-color: rgb(250, 246, 246);
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+.footer-column h3 {
+    color: black;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.footer-column a{
+    text-decoration: none;
+    color: rgb(158, 153, 153);
+    display: block;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.popular-search{
+    background-color: rgb(250, 246, 246);
+}
+.popular-search a{
+    text-decoration: none;
+    color: rgb(165, 159, 159);
+    display: block;
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin: 15px 30px 15px 30px;
+}
+.popular-search h6 {
+    color: black;
+    font-size: 14px;
+    margin: 0px 60PX 30PX 30px;
+}
+.popular-search h4 {
+    color: black;
+    font-size: 14px;
+    margin: 0px 60PX 30PX 30px;
+}
+.copyright{
+    color: rgb(143, 142, 142);
+    text-align: center;
+    padding: 5px;
+}
+.disclaimer{
+    margin: 30px 30px 30px 30px;
+    color: rgb(165, 159, 159);
+    font-size: 12px;
+}
+.disclaimer h5{
+    color: black;
+    font-size: 14px;
+}
